@@ -20,7 +20,7 @@ const Checkout = () => {
   }
 
   return (
-    <Modal>
+    <Modal open={userProgressCtx.progress === "checkout"} onClose={handleClose}>
       <form>
         <h2>Ckeckout</h2>
         <p>Total Amount: {currencyFormatter.format(cartTotal)}</p>
