@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "items": [
+      {
+        "id": "m1",
+        "name": "Mac & Cheese",
+        "price": "8.99",
+        "description": "Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs. A classic comfort food.",
+        "image": "images/mac-and-cheese.jpg",
+        "quantity": 1
+      }
+    ],
+    "customer": {
+      "name": "naresh",
+      "email": "naresh31122002@gmail.com",
+      "street": "57,anna street, surampatti,Erode -638009",
+      "postal-code": "638009",
+      "city": "Erode"
+    },
+    "id": "226.62646617607308"
+  }
+]
